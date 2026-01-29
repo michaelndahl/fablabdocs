@@ -1,7 +1,12 @@
 site_name: Fablab Skandeborg
 site_url: https://docs.dahl.sh
 theme:
+  features:
+  - navigation.footer
   name: material
   logo: assets/fablab.png
-    features:
-    - navigation.footer
+extra:
+  social:
+    - icon: fontawesome/brands/facebook 
+      link: https://www.facebook.com/FablabSkanderborg/
+      
