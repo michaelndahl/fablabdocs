@@ -1,0 +1,4 @@
+site_name: Fablab Skandeborg
+site_url: https://docs.dahl.sh
+theme:
+  name: material
