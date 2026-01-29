@@ -1,4 +1,4 @@
-site_name: Fablab Skandeborg
+site_name: Fablab Skanderborg
 site_url: https://docs.dahl.sh
 theme:
   features:
@@ -9,4 +9,3 @@ extra:
   social:
     - icon: fontawesome/brands/facebook 
       link: https://www.facebook.com/FablabSkanderborg/
-      
