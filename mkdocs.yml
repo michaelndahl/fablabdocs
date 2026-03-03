@@ -1,10 +1,19 @@
 site_name: Fablab Skanderborg
-site_url: https://docs.dahl.sh
+site_url: https://fablab.dahl.sh
 theme:
   features:
+  - navigation.instant
+#  - navigation.instant.prefetch
+#  - navigation.instant.progress
   - navigation.footer
+  - navigation.tabs
   name: material
   logo: assets/fablab.png
+nav:
+  - Home: index.md
+  - 3D Print: 3d.md
+  - Laser: laser.md
+  - Om: about.md
 extra:
   social:
     - icon: fontawesome/brands/facebook 
