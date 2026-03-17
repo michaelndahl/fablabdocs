@@ -1,5 +1,12 @@
 site_name: Fablab Skanderborg
 site_url: https://fablab.dahl.sh
+# Markdown Extensions (Diagrammer understøttelse)
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 theme:
   features:
   - navigation.instant
@@ -9,6 +16,31 @@ theme:
   - navigation.tabs
   name: material
   logo: assets/fablab.png
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light modes
+      primary: teal
+      accent: deep orange
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+      primary: teal
+      accent: deep orange
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+      primary: teal
+      accent: deep orange
 nav:
   - Home: index.md
   - 3D Print: 3d.md
